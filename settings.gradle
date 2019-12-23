@@ -1,0 +1,7 @@
+rootProject.name = 'foodcourt'
+include "applications:foodcourt"
+include "components:beverages"
+include "components:appetizers"
+include "applications:beverages-ms"
+include "components:ui"
+include "applications:appetizers-ms"

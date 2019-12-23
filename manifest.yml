@@ -1,0 +1,22 @@
+applications:
+  - name: beverages-ms
+    path: applications/beverages-ms/build/libs/beverages-ms-1.0-SNAPSHOT.jar
+    routes:
+      - route: gp-beverages-ms.apps.pcf.cpstraining.perficient.com
+    services:
+      - beverages-ms-database
+      - service-registry
+  - name: appetizers-ms
+    path: applications/appetizers-ms/build/libs/appetizers-ms-1.0-SNAPSHOT.jar
+    routes:
+      - route: gp-appetizers-ms.apps.pcf.cpstraining.perficient.com
+    services:
+      - appetizers-ms-database
+      - service-registry
+  - name: foodcourt
+    path: applications/foodcourt/build/libs/foodcourt-1.0-SNAPSHOT.war
+    routes:
+      - route: gp-foodcourt.apps.pcf.cpstraining.perficient.com
+    services:
+      - service-registry
+      - circuit-breaker
