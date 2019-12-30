@@ -76,12 +76,11 @@
   <form class="beverage-input-form form-inline" action="beveragesmenu"
         method="post">
     <p>Add Beverage</p>
-    <input type="text" name="title" placeholder="Title" size="29"/> <input
-      type="text" name="price" placeholder="Price" size="17"/> <input
-      type="text" name="size" placeholder="Size" size="14"/> <input
-      type="text" name="rating" placeholder="Rating" size="27"/> <input
-      style="width: 110px;"/> <input type="submit" name="action"
-                                     class="btn btn-primary" value="Add"/>
+    <input type="text" name="title" placeholder="Title" size="29"/>
+    <input type="text" name="price" placeholder="Price" size="17"/>
+    <input type="text" name="size" placeholder="Size" size="14"/>
+    <input type="text" name="rating" placeholder="Rating" size="27"/>
+    <input type="submit" name="action" class="btn btn-primary" value="Add"/>
   </form>
 
   <table class="table table-striped table-bordered">
@@ -91,18 +90,15 @@
       <th>Price</th>
       <th>Size</th>
       <th>Rating</th>
-      <th>&nbsp;</th>
     </tr>
     </thead>
     <tbody>
-    <c:forEach items="${beveragesmenu}" var="beverage">
+    <c:forEach items="${beverages}" var="beverage">
       <tr>
         <td><c:out value="${beverage.title}"/></td>
-        <td><c:out value="${beverage.price}"/></td>
-        <td><c:out value="${beverage.size}"/></td>
         <td><c:out value="${beverage.rating}"/></td>
-        <td><a href="?action=Remove&id=${beverage.id}"><i
-            class="icon-trash"></i></a></td>
+        <td><c:out value="${beverage.size}"/></td>
+        <td><c:out value="${beverage.price}"/></td>
       </tr>
     </c:forEach>
     </tbody>

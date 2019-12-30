@@ -71,7 +71,7 @@
       <td><b>Rating<b></td>
     </tr>
 
-    <c:forEach items="${requestScope.beveragesmenu}" var="beverage">
+    <c:forEach items="${requestScope.beverages}" var="beverage">
       <tr>
         <td>${ beverage.title }</td>
         <td>${ beverage.size }</td>
@@ -87,22 +87,22 @@
   <table width="1000">
     <tr>
       <td><b>Title</b></td>
-      <td><b>Description</b></td>
-      <td><b>URL</b></td>
+      <td><b>Price</b></td>
+      <td><b>Rating</b></td>
     </tr>
 
     <c:forEach items="${requestScope.appetizers}" var="appetizer">
       <tr>
-        <td>${ appetizer.title }</td>
-        <td>${ appetizer.description }</td>
-        <td>${ appetizer.url }</td>
+        <td>${ appetizer.appTitle }</td>
+        <td>${ appetizer.appPrice }</td>
+        <td>${ appetizer.appRating }</td>
       </tr>
     </c:forEach>
 
   </table>
 
   <h2>Continue</h2>
-  <a href="beveragesmenu">Go to main app</a>
+  <a href="index">Go to main app</a>
 
 </div>
 <!-- /container -->

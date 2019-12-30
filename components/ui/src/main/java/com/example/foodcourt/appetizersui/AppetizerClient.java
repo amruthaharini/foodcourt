@@ -48,7 +48,6 @@ public class AppetizerClient {
 
     public List<AppetizerUI> getAllFallback() {
         log.debug("Returning {} appetizers from the fallback method", lastRead.size());
-
         return lastRead;
     }
 }

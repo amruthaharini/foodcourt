@@ -4,7 +4,7 @@ spring:
   application:
     name: beverages-ms
   datasource:
-    url: jdbc:mysql://localhost:3306/beveragesmenu?useSSL=false&user=root&password=password
+    url: jdbc:mysql://localhost:3306/beverages?useSSL=false&user=root&password=password
 
   jpa:
     generate-ddl: true

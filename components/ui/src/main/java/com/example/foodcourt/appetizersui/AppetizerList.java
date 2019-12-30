@@ -12,18 +12,14 @@ public class AppetizerList {
 
     public List<AppetizerUI> asList() {
         return Arrays.asList(
-                new AppetizerUI("Wait Wait...Don't Tell Me!",
-                        "NPR's weekly current events quiz.",
-                        "https://www.npr.org/programs/wait-wait-dont-tell-me/"),
-                new AppetizerUI("TED Radio Hour",
-                        "Guy Raz explores the emotions, insights, and discoveries that make us human.",
-                        "https://www.npr.org/programs/ted-radio-hour/"),
-                new AppetizerUI("Fresh Air",
-                        "Hosted by Terry Gross, this show features intimate conversations with today's biggest luminaries.",
-                        "https://www.npr.org/programs/fresh-air/"),
-                new AppetizerUI("NPR Politics Podcast",
-                        "The NPR Politics Podcast is where NPR's political reporters talk to you like they talk to each other.",
-                        "https://www.npr.org/sections/politics/")
+                new AppetizerUI("Sausage Pinwheels", 12, 5),
+                new AppetizerUI("Loaded Mashed Potato Bites", 10, 5),
+                new AppetizerUI("Garlic Roast Beef Pinwheels", 9, 6),
+                new AppetizerUI("Puff Pastry Sausage Rolls", 14, 10),
+                new AppetizerUI("French Onion Dip", 12, 9),
+                new AppetizerUI("Italian Sub Crescent Roll Ring", 13, 9),
+                new AppetizerUI("Homemade Cheesy Chili Dip", 14, 10),
+                new AppetizerUI("Melon Caprese Skewers with Herb Oil", 8, 4)
         );
     }
 }

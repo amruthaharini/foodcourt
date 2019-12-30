@@ -4,17 +4,17 @@ import java.util.Objects;
 
 public class AppetizerUI {
     private Long id;
-    private String title;
-    private String description;
-    private String url;
+    private String appTitle;
+    private double appPrice;
+    private double appRating;
 
     public AppetizerUI() {
     }
 
-    public AppetizerUI(String title, String description, String url) {
-        this.title = title;
-        this.description = description;
-        this.url = url;
+    public AppetizerUI(String appTitle, double appPrice, double appRating) {
+        this.appTitle = appTitle;
+        this.appPrice = appPrice;
+        this.appRating = appRating;
     }
 
     public Long getId() {
@@ -25,27 +25,27 @@ public class AppetizerUI {
         this.id = id;
     }
 
-    public String getTitle() {
-        return title;
+    public String getappTitle() {
+        return appTitle;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setappTitle(String appTitle) {
+        this.appTitle = appTitle;
     }
 
-    public String getDescription() {
-        return description;
+    public double getappPrice() {
+        return appPrice;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setappPrice(double appPrice) {
+        this.appPrice = appPrice;
     }
 
-    public String getUrl() {
-        return url;
+    public double getappRating() {
+        return appRating;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
+    public void setappRating(double appRating) {
+        this.appRating = appRating;
     }
 }

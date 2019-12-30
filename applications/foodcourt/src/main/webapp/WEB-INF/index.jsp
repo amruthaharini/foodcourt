@@ -32,7 +32,7 @@
 
   <!-- Le styles -->
   <link href="../assets/css/bootstrap.css" rel="stylesheet">
-  <link href="../assets/css/movie.css" rel="stylesheet">
+  <link href="../assets/css/beverage.css" rel="stylesheet">
   <style>
     body {
       padding-top: 60px;
@@ -62,7 +62,8 @@
 
   <p>Please select one of the following links:</p>
   <a href="setup">Setup</a> - Sets up the application with some sample data<br/>
-  <a href="beveragesmenu">Index</a> - Start the application<br/>
+  <a href="beveragesmenu">Beverages<br/>
+  <a href="appetizers">Appetizers<br/>
 
 </div>
 <!-- /container -->

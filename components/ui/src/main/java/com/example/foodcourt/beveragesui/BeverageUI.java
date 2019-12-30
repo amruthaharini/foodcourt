@@ -80,8 +80,6 @@ public class BeverageUI implements Serializable {
         this.price = price;
     }
 
-
-
     public int getRating() {
         return rating;
     }

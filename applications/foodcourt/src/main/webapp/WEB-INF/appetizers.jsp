@@ -45,34 +45,35 @@
 <body>
 
 <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </a>
-            <a class="brand" href="#">Foodcourt</a>
-        </div>
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse"
+         data-target=".nav-collapse"> <span class="icon-bar"></span> <span
+          class="icon-bar"></span> <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="#">Foodcourt</a>
+      <!--/.nav-collapse -->
     </div>
+  </div>
 </div>
 
 <div class="container">
-
     <h1>Appetizers</h1>
     <table class="table table-striped table-bordered">
 
         <thead>
             <tr>
                 <td><b>Title</b></td>
-                <td><b>Description</b></td>
+                <td><b>Price</b></td>
+                <td><b>Rating</b></td>
             </tr>
         </thead>
         <tbody>
-            <c:forEach items="${requestScope.appetizer}" var="appetizer">
+            <c:forEach items="${requestScope.appetizers}" var="appetizer">
                 <tr>
-                    <td><a href="${appetizer.url}">${appetizer.title}</a></td>
-                    <td> ${appetizer.description} </td>
+                    <td>${appetizer.appTitle}</td>
+                    <td>${appetizer.appPrice}</td>
+                    <td>${appetizer.appRating}</td>
                 </tr>
             </c:forEach>
         </tbody>
