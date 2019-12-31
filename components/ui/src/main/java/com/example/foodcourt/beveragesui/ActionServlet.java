@@ -37,8 +37,6 @@ public class ActionServlet extends HttpServlet {
 
     public static int PAGE_SIZE = 5;
 
-
-
     private BeverageClient beveragesClient;
 
     public ActionServlet(BeverageClient beveragesClient) {

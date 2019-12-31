@@ -18,5 +18,4 @@ public class AppetizerController {
         model.put("appetizers", appetizerClient.getAll() );
         return "appetizers";
     }
-
 }

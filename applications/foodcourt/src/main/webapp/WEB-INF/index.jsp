@@ -57,30 +57,17 @@
 </div>
 
 <div class="container">
-
   <h1 style="text-align:center">Foodcourt</h1>
-
   <h4 style="text-align:left"><strong>Please select one of the following links:</strong></h4>
-
-  <div>
-     <a href="setup"><b>Setup</b></a> : Sets up the application with some sample data<br/>
-  </div>
-  <p></p>
-  <div id="image-table">
-  <table>
-     <tr>
-        <td>
-           <a href="appetizers">Appetizers<br/>
-           <img src="https://purewows3.imgix.net/images/articles/2018_12/brussels_sprouts_sliders.png?auto=format,compress&cs=strip" width="500" height="80"
-                alt="Appetizers">
-        </td>
-        <td>
-           <a href="beveragesmenu">Beverages<br/>
-           <img src="https://www.getflavor.com/wp-content/uploads/2017/01/2017-trends-non-alcoholic-beverages.jpg" width="500" height="80"
-                alt="Beverages">
-        </td>
-     </tr>
-  </table>
+  <ul style="list-style-type:disc;">
+  <li><a href="setup"><b>Setup</b></a> : Sets up the application with some sample data<br/></br></li>
+  <li><a href="beveragesmenu"><b>Beverages</b><br/>
+    <img src="https://www.getflavor.com/wp-content/uploads/2017/01/2017-trends-non-alcoholic-beverages.jpg" width="500" height="80"
+    alt="Beverages"></br></br></li>
+  <li><a href="appetizers"><b>Appetizers</b><br/>
+  <img src="https://purewows3.imgix.net/images/articles/2018_12/brussels_sprouts_sliders.png?auto=format,compress&cs=strip" width="500" height="80"
+                  alt="Appetizers"></br></br></li>
+  </ul>
   </div>
 </div>
 <!-- /container -->

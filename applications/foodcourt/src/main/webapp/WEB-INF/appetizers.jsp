@@ -1,4 +1,4 @@
-<<%--
+<%--
     Licensed to the Apache Software Foundation (ASF) under one or more
     contributor license agreements.  See the NOTICE file distributed with
     this work for additional information regarding copyright ownership.
@@ -59,6 +59,16 @@
 
 <div class="container">
     <h1>Appetizers</h1>
+
+    <form class="beverage-input-form form-inline" action="appetizers"
+            method="post">
+        <p>Add Appetizers</p>
+        <input type="text" name="title" placeholder="Title" size="29"/>
+        <input type="text" name="price" placeholder="Price" size="17"/>
+        <input type="text" name="rating" placeholder="Rating" size="27"/>
+        <input type="submit" name="action" class="btn btn-primary" value="Add"/>
+      </form>
+
     <table class="table table-striped table-bordered">
 
         <thead>

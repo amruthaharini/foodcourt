@@ -102,7 +102,7 @@
   </table>
 
   <h2>Continue</h2>
-  <a href="index">Go to main app</a>
+  <a href="#">Go to main app</a>
 
 </div>
 <!-- /container -->

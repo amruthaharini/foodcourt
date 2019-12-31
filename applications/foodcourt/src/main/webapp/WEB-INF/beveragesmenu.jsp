@@ -56,9 +56,7 @@
       <form class="navbar-form pull-right">
         <select name="field">
           <option value="title">Title</option>
-          <option value="price">Price</option>
           <option value="size">Size</option>
-          <option value="Rating">Rating</option>
 
         </select> <input type="text" name="key" size="20">
         <button type="submit" class="btn">Search</button>
@@ -96,9 +94,9 @@
     <c:forEach items="${beverages}" var="beverage">
       <tr>
         <td><c:out value="${beverage.title}"/></td>
-        <td><c:out value="${beverage.rating}"/></td>
-        <td><c:out value="${beverage.size}"/></td>
         <td><c:out value="${beverage.price}"/></td>
+        <td><c:out value="${beverage.size}"/></td>
+        <td><c:out value="${beverage.rating}"/></td>
       </tr>
     </c:forEach>
     </tbody>

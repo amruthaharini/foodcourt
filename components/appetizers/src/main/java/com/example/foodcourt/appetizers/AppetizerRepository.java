@@ -9,7 +9,5 @@ public interface AppetizerRepository extends CrudRepository<Appetizer, Long> {
 
     Optional<Appetizer> findById(Long id);
 
-
-
     //Object getUrl();
 }
