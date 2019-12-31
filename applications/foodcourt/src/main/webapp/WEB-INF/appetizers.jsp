@@ -52,7 +52,7 @@
           class="icon-bar"></span> <span class="icon-bar"></span>
       </a>
       <a class="brand" href="#">Foodcourt</a>
-      <!--/.nav-collapse -->
+      <!--/nav-collapse -->
     </div>
   </div>
 </div>
