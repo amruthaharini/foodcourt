@@ -23,14 +23,6 @@ public class BeverageController {
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
-    @DeleteMapping("/{id}")
-    public ResponseEntity<Beverage> delete(@PathVariable Long id) {
-        Beverage doomed = beveragesBean.find(id);
-        if (doomed != null) beveragesBean.deleteBeverage(doomed);
-        HttpStatus status = (doomed != null) ? HttpStatus.NO_CONTENT : HttpStatus.NOT_FOUND;
-        return new ResponseEntity<>(status);
-    }
-
     @GetMapping("/count")
     public int count(
             @RequestParam(value = "field", required = false) String field,
